@@ -1,0 +1,56 @@
+:root {
+    --colorBackground: #1d1d1d;
+    --colorTextAreas: #303030;
+    --colorFields: #353535;
+}
+
+body {
+    background-color: var(--colorBackground);
+}
+
+#generalContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+#controlPanel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+::placeholder {
+    font-weight: bold;
+}
+
+#convertButton {
+    background-color: var(--colorFields);
+    color: yellow;
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: 20px 0px;
+}
+
+#convertButton:hover {
+    background-color: yellow;
+    color:black;
+}
+
+.inputFields {
+    border-radius: 10px;
+    background-color: var(--colorFields);
+    color: white;
+    font-size: 16px;
+}
+
+textarea {
+    height: 800px;
+    width: 35%;
+    background-color: var(--colorTextAreas);
+    font-size: 20px;
+    color: white;
+    resize: none;
+}
