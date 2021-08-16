@@ -1,2 +1,2 @@
 # text-converter-tool
-A small tool i developed for myself which turned pretty good
+A small tool i made for myself to convert the ">" in a greentext into "-", but it can convert pretty much anything into something else.
